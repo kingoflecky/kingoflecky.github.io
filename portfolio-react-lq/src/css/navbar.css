@@ -1,0 +1,84 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif 'Arial Narrow Bold', sans-serif;
+}
+
+.navBar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navLink {
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+    position: relative;
+    display: block;
+    justify-content: center;
+    padding: 20px 0;
+    margin: 0 4%;
+    letter-spacing: 1px;
+    line-height: 16px;
+    font-weight: 900;
+    text-align: center;
+    transition: color 0.1s, background-color 0.1s;
+}
+
+a:link{
+    text-decoration: none!important;
+    color: black
+  }
+
+  a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
+.navLink::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: seagreen;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: color 0.1s, transform 0.2s ease-out;
+}
+.navLink:active::before {
+    background-color: #000;
+}
+
+.navLink:hover::before,
+a:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+
+.navLink:hover,
+.navLink:focus,
+.navLink:active {
+    background-color:lightgray;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 0 20px;
+    vertical-align: middle;
+    justify-content: center;
+}
