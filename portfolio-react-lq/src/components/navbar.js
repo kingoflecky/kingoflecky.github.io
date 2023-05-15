@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/navbar.css';
 import './about';
 import './contact';
+import './home'
 import './photography';
 import './portfolio'
 
@@ -10,7 +11,7 @@ export function Navbar(props) {
         <>
             <header className="header">
 
-                <div className="title">Lewis Quinn</div>
+                <div className="title"><a href="./home">Lewis Quinn</a></div>
 
                 <nav className="navBar">
                     <div className="navLink"><a href="./about">About</a></div>
