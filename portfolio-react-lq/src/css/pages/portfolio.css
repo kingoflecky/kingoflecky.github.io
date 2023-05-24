@@ -11,7 +11,7 @@
     width: 90vw;
     grid-template-columns: 50% 50%;
     grid-template-rows: 35vh 35vh;
-    grid-gap:2px 2px;
+    grid-gap: 2px 2px;
     justify-content: center;
     align-items: center;
 }
@@ -19,36 +19,36 @@
 .portfolioMenuItem {
     display: flex;
     background-position: center center;
- background-size: cover;
- height: 100%;
- color: #fff;
+    background-size: cover;
+    height: 100%;
+    color: #fff;
 }
 
 #landscapeItm {
- background-image: url(https://cdn.myportfolio.com/2b1b8b85-ad36-43bf-93d1-06269f942d23/4ef7a6ba-b221-4d9a-aec3-84c0c47a9cde_rw_1200.jpg?h=50524f542745ec9d373e961338943bfc);
- 
+    background-image: url(https://cdn.myportfolio.com/2b1b8b85-ad36-43bf-93d1-06269f942d23/4ef7a6ba-b221-4d9a-aec3-84c0c47a9cde_rw_1200.jpg?h=50524f542745ec9d373e961338943bfc);
+
 }
 
-#peopleItm{
+#peopleItm {
     background-image: url(https://cdn.myportfolio.com/2b1b8b85-ad36-43bf-93d1-06269f942d23/5235d00a-6a95-4a69-a6d3-797a26d7300e_rw_1200.jpg?h=b8a56f76c3bcb4de00ebfbbb24310ece);
 }
 
-#commercialItm{
-  background-image: url(https://cdn.myportfolio.com/2b1b8b85-ad36-43bf-93d1-06269f942d23/6b19c58d-fc53-403b-85bc-7ec0dc279857_rw_1200.jpg?h=3e5cfed6f4140412fb38afd89d01c558);
+#commercialItm {
+    background-image: url(https://cdn.myportfolio.com/2b1b8b85-ad36-43bf-93d1-06269f942d23/6b19c58d-fc53-403b-85bc-7ec0dc279857_rw_1200.jpg?h=3e5cfed6f4140412fb38afd89d01c558);
 }
 
-#videographyItm{
- background-image: url(https://cdn.myportfolio.com/2b1b8b85-ad36-43bf-93d1-06269f942d23/9402f36e-af2a-4d6c-8c8d-851075d9c4ca_rw_1200.jpg?h=6850f195ba6ff509ef252e0279dc334f) ;
+#videographyItm {
+    background-image: url(https://cdn.myportfolio.com/2b1b8b85-ad36-43bf-93d1-06269f942d23/9402f36e-af2a-4d6c-8c8d-851075d9c4ca_rw_1200.jpg?h=6850f195ba6ff509ef252e0279dc334f);
 }
 
 
-@media only screen and (max-width: 720px) {
-    .portfolioGridContainer{
-        display: flex!important;
+@media only screen and (max-width: 480px) {
+    .portfolioGridContainer {
+        display: flex !important;
     }
 
     .portfolioMenu {
-        display: flex!important;
+        display: flex !important;
         flex-direction: column;
     }
 
@@ -59,4 +59,3 @@
         height: 20vh;
     }
 }
-

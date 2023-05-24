@@ -1,0 +1,34 @@
+article {
+    text-align: left;
+    margin-left: 1vw;
+    margin-right: 2vw;
+}
+
+p {
+    font-size: 14px;
+}
+
+.aboutWrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#firstPara{
+    font-weight: 600;
+}
+
+#aboutImg {
+    width: 50%;
+    height: 100%;
+    margin:1vw;
+}
+
+@media only screen and (max-width:540px) {
+    .aboutWrapper {
+        flex-direction: column;
+    }
+
+    #aboutImg {
+        align-self: center;
+    }
+}
