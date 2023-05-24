@@ -1,6 +1,6 @@
 import '../css/home.css'
 
-export function Homepage(props) {
+function Homepage(props) {
     return (
         <>
          <h5>here is a picture of me in the wild</h5>
@@ -10,3 +10,5 @@ export function Homepage(props) {
         </>
     )
 };
+
+export default Homepage

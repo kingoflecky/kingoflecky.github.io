@@ -1,26 +1,29 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../css/navbar.css';
-import './about';
-import './contact';
+import '../pages/navbar/about';
+import '../pages/navbar/contact';
 import './home'
-import './photography';
-import './portfolio'
+import '../pages/navbar/photography';
+import '../pages/navbar/portfolio'
 
-export function Navbar(props) {
+function Navbar() {
     return (
         <>
             <header className="header">
 
-                <div className="title"><a href="./home">Lewis Quinn</a></div>
+                <div className="title"><Link to="/">Lewis Quinn</Link></div>
 
                 <nav className="navBar">
-                    <div className="navLink"><a href="./about">About</a></div>
-                    <div className="navLink"><a href="./portfolio">Portfolio</a></div>
-                    <div className="navLink"><a href="./contact">Contact</a></div>
-                    <div className="navLink"><a href="./photography">Photography</a></div>
+                    <Link to="/about" className="navLink">About </Link>
+                    <Link to="/portfolio" className="navLink">Portfolio</Link>
+                    <Link to="/contact" className="navLink">Contact</Link>
+                    <Link to="/photography" className="navLink">Photography</Link>
                 </nav>
 
             </header>
         </>
     )
 };
+
+export default Navbar
