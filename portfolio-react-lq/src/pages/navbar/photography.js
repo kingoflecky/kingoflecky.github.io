@@ -1,4 +1,5 @@
 import React from "react";
+import "../../css/pages/photography.css"
 
 function Photography() {
     return (
