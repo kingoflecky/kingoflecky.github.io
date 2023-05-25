@@ -7,10 +7,10 @@
 
 .portfolioMenu {
     display: grid;
-    height: 80vh;
-    width: 90vw;
+    height: 90vh;
+    width: 75vw;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 35vh 35vh;
+    grid-template-rows: 65vh 65vh;
     grid-gap: 2px 2px;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 540px) {
     .portfolioGridContainer {
         display: flex !important;
     }
@@ -50,6 +50,7 @@
     .portfolioMenu {
         display: flex !important;
         flex-direction: column;
+        grid-gap: 0!important;
     }
 
     .portfolioMenuItem {
