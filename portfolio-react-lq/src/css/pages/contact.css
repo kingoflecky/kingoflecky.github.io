@@ -1,0 +1,41 @@
+
+
+#formFieldsWrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formFields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.formFieldNames {
+    text-align: left;
+}
+
+input{
+    width: 65vw;
+    height: 3vh;
+}
+
+#messageInput {
+    height: 25vh;
+}
+
+.submitBtn{
+    padding: 10px;
+    border: 1px solid rgb(88, 114, 88);
+    background-color: rgb(237, 242, 237);
+    text-transform: capitalize;
+}
+
+.submitBtn:hover{
+    color: #ffff;
+    background-color: seagreen;
+}

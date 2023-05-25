@@ -4,7 +4,26 @@ import "../../css/pages/contact.css"
 const Contact = () => {
     return (
         <>
-            <h3>This is the contact page</h3>
+            <h3>Contact</h3>
+            <div id="formFieldsWrapper">
+                <div className="formFields">
+                    <p className="formFieldNames">Name</p>
+                    <input required></input>
+                </div>
+                <div className="formFields">
+                    <p className="formFieldNames">Email Address</p>
+                    <input required></input>
+                </div>
+                <div className="formFields">
+                    <p className="formFieldNames">Subject</p>
+                    <input></input>
+                </div>
+                <div className="formFields">
+                    <p className="formFieldNames">Message</p>
+                    <input id="messageInput" required></input>
+                </div>
+                <p><a className="submitBtn">submit</a></p>
+            </div>
         </>
     )
 }
