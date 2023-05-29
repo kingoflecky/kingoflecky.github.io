@@ -1,4 +1,14 @@
 .imgLrg {
-    max-width: 100%;
+    background-position: center center;
     height: auto;
+    background-size: cover;
+    width:100vw;
+    
+}
+
+@media screen and (max-width:940px) {
+    .imgLrg{
+  
+    }
+    
 }

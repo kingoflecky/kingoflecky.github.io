@@ -1,6 +1,6 @@
 .header{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     padding-top: 3vh;
 }
@@ -18,10 +18,10 @@
 
 .navBar{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     
 }
 
@@ -81,4 +81,15 @@ a:focus::before {
     padding: 20px 0 20px;
     vertical-align: middle;
     justify-content: center;
+}
+
+
+@media screen and (max-width: 640px) {
+    .header{
+        flex-direction: column;
+    }
+    .navBar{
+    flex-wrap: wrap;
+    flex-direction: column;
+    }
 }
