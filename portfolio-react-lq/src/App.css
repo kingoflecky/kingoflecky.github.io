@@ -1,3 +1,9 @@
+@import url("https://use.typekit.net/bfq8clt.css");
+
+* {
+  font-family: "nimbus-sans" ;
+}
+
 .App {
   text-align: center;
 }

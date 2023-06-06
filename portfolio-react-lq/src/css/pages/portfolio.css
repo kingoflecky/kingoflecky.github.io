@@ -7,8 +7,8 @@
 
 .portfolioMenu {
     display: grid;
-    height: 90vh;
-    width: 75vw;
+    height: 95vh;
+    width: 95vw;
     grid-template-columns: 50% 50%;
     grid-template-rows: 65vh 65vh;
     grid-gap: 2px 2px;
@@ -22,6 +22,38 @@
     background-size: cover;
     height: 100%;
     color: #fff;
+    background-color: #000;
+    z-index: 0;
+}
+
+.portfolioMenuItem:hover{
+    filter: saturate(0.25);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+
+}
+
+.portfolioMenuItem h2 {
+  display: none;
+}
+
+
+.portfolioMenuItem:hover h2 {
+    z-index: 2;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: start;
+    color: #fff;
+    color: #eeeeec;
+    margin: 0;
+    background: rgba(0,0,0,0.5);
+    transition: opacity 0.5s;
+    opacity: 1;
+    width: -webkit-fill-available;
 }
 
 #landscapeItm {
