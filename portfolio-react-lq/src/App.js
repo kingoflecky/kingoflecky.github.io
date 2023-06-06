@@ -5,8 +5,8 @@ import Navbar from './components/navbar.js';
 import Homepage from './components/home';
 import About from "./pages/navbar/about";
 import Contact from "./pages/navbar/contact";
-import Photography from "./pages/navbar/photography";
 import Portfolio from "./pages/navbar/portfolio";
+import ReactWork from './pages/navbar/reactWork';
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <Route path='/' element={<Homepage />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
-          <Route path='/photography' element={<Photography />} />
+          <Route path='/reactWork' element={<ReactWork />} />
           <Route path='/portfolio' element={<Portfolio />} />
         </Routes>
       </Router>

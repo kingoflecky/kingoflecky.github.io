@@ -4,9 +4,11 @@ import "../../css/pages/about.css"
 const About = () => {
     return (
         <>
-            <h2>About</h2>
+            <div className="titleWrapper">
+                <h3>About</h3>
+            </div>
             <div className="aboutWrapper">
-                <img src="https://cdn.myportfolio.com/2b1b8b85-ad36-43bf-93d1-06269f942d23/c850ba06-6a4e-453c-9908-9fbc52d07144_rw_1200.jpg?h=fe087213fe386aba6b0cd07ecccfb427" id="aboutImg" />
+                <img src="https://cdn.myportfolio.com/2b1b8b85-ad36-43bf-93d1-06269f942d23/c850ba06-6a4e-453c-9908-9fbc52d07144_rw_1200.jpg?h=fe087213fe386aba6b0cd07ecccfb427" id="aboutImg" alt="Portrait of Lewis Quinn" />
 
                 <article>
                     <p id="firstPara">Lewis Quinn is a director, photographer and videographer based in Edinburgh, Scotland. Specialising in adventure-lifestyle and landscape photography, Lewis has worked with clients across the UK, Europe, and the USA. From humble beginnings photographing trips as an enthusiastic teenager, his work has come a long way. </p>
