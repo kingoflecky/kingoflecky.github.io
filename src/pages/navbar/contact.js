@@ -22,7 +22,7 @@ const Contact = () => {
                     <p className="formFieldNames">Message</p>
                     <input id="messageInput" required></input>
                 </div>
-                <p><a className="submitBtn">submit</a></p>
+                <p><button className="submitBtn">submit</button></p>
             </div>
         </>
     )
