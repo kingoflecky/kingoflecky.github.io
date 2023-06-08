@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "../../components/contactForm";
 import "../../css/pages/about.css"
 
 const About = () => {
