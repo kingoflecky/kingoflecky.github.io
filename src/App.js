@@ -3,6 +3,7 @@ import "./App.css";
 import NavbarRouter from "./components/navbarRouter";
 import HamburgerMenu from "./components/hamburgerMenu";
 import { isMobile } from "react-device-detect";
+import SiteTitle from "./components/siteTitle.js";
 
 
 function App() {
