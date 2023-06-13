@@ -20,12 +20,17 @@ const ContactForm = () => {
     }, 100);
   };
 
+  const formSuccessMsg = () => {
+    return (
+    <>
+      <h3>Thank you!</h3>
+      <p>Your message has sent.</p>
+    </>
+  )}
+
   if (submitted) {
     return (
-      <>
-        <h3>Thank you!</h3>
-        <p>Your message has sent.</p>
-      </>
+        formSuccessMsg()
     );
   }
 

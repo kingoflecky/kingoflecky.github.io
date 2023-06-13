@@ -15,4 +15,10 @@ describe("form fields", () => {
     render(<ContactForm />);
     expect(screen.getByRole('button')).toBeInTheDocument();
   });
+
+  it("should not display success message when form not sent", () => {
+    render(<ContactForm />);
+    expect(screen.queryByText('Your message has sent.')).not.toBeInTheDocument();
+  });
+
 });
