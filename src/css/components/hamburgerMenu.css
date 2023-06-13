@@ -1,0 +1,19 @@
+.burgerBtn {
+    display: none;
+}
+
+.burgerOpenWrapper {
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    .burgerBtn {
+        display: inline;
+        float: center;
+        padding: 10px;
+    }
+    .burgerOpenWrapper{
+        display: inline;
+        float: center;
+    }
+}
