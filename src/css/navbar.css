@@ -66,9 +66,6 @@ a:focus::before {
 
 
 @media screen and (max-width: 640px) {
-    .header{
-        flex-direction: column;
-    }
     .navBar{
     flex-wrap: wrap;
     flex-direction: column;

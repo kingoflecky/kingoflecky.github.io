@@ -1,19 +1,29 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "../components/navbar.js";
-import Homepage from "../components/home";
+import Homepage from "./home";
 import About from "../pages/navbar/about";
 import Contact from "../pages/navbar/contact";
 import Portfolio from "../pages/navbar/portfolio";
 import ReactWork from "../pages/navbar/reactWork";
-import SiteTitle from "./siteTitle.js";
 import HamburgerMenu from "./hamburgerMenu.js";
-import "../css/components/navbarRouter.css";
+import Header from "./header";
+import "../css/components/appRouter.css";
+import SiteTitle from "./siteTitle";
 
-const NavbarRouter = () => {
+// RENAME
+
+const AppRouter = () => {
   return (
     <Router>
-      <SiteTitle />
+      
+        <div className="appTitle">
+          <SiteTitle />
+        </div>
+        <div className="appHeader">
+          <Header />
+        </div>
+        <HamburgerMenu />
+   
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<About />} />
@@ -25,4 +35,4 @@ const NavbarRouter = () => {
   );
 };
 
-export default NavbarRouter;
+export default AppRouter;

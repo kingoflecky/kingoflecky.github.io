@@ -9,15 +9,3 @@
     font-family: "nimbus-sans-extended"
 }
 
-.header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 1vh;
-}
-
-@media screen and (max-width: 640px) {
-    .header{
-        flex-direction: column;
-    }
-}

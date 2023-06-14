@@ -1,18 +1,13 @@
 import React from "react";
 import "./App.css";
-import NavbarRouter from "./components/navbarRouter";
-import HamburgerMenu from "./components/hamburgerMenu";
-import { isMobile } from "react-device-detect";
-import SiteTitle from "./components/siteTitle.js";
-
+import AppRouter from "./components/appRouter";
 
 function App() {
 
   return (
     <>
       <div className="App">
-        <HamburgerMenu />
-        <NavbarRouter />
+        <AppRouter />
       </div>
     </>
   );
