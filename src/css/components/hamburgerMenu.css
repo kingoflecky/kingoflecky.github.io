@@ -14,11 +14,11 @@
     .burgerBtn {
         display: inline;
         float: center;
-        padding: 10px;
+        padding: 6px;
     }
     
     .burgerBtn{
-        padding: 10px;
+        padding: 6px;
         border: 1px solid rgb(88, 114, 88);
         background-color: rgb(237, 242, 237);
         border-radius: 0.3em;
@@ -32,6 +32,16 @@
     .burgerOpenWrapper{
         display: inline;
         float: center;
+    }
+
+    #bgrClose {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #bgrOpen{
+        font-size: 14px;
+        font-weight: 800;
     }
 
     #burgerNav {

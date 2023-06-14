@@ -18,8 +18,8 @@ const HamburgerMenu = () => {
     return (
       <>
         <div className="burgerOpenWrapper">
-          <button onClick={handleClick} className="burgerBtn">
-            -
+          <button onClick={handleClick} className="burgerBtn" id="bgrClose">
+            x
           </button>
             <div id="burgerNav">
              <Navbar />
@@ -31,7 +31,7 @@ const HamburgerMenu = () => {
 
   return (
     <>
-      <button onClick={handleClick} className="burgerBtn">
+      <button onClick={handleClick} className="burgerBtn" id="bgrOpen">
         +
       </button>
     </>
